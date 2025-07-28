@@ -12,7 +12,7 @@ COPY package*.json ./
 # RUN mkdir /.npm && chown -R 1000810000:1000810000 /.npm && npm ci
 # USER 1000810000
 
-ENV npm_config_cache=/tmp/.npm
+# ENV npm_config_cache=/tmp/.npm
 
 RUN npm ci
 
