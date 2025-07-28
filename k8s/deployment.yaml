@@ -52,6 +52,8 @@ spec:
         terminationMessagePath: /dev/termination-log
         terminationMessagePolicy: File
         imagePullPolicy: IfNotPresent
-      securityContext: {}
+      securityContext:
+        runAsUser: 1000810000
+        runAsGroup: 1000810000
   revisionHistoryLimit: 10
   progressDeadlineSeconds: 600
