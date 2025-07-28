@@ -52,6 +52,8 @@ spec:
         terminationMessagePath: /dev/termination-log
         terminationMessagePolicy: File
         imagePullPolicy: IfNotPresent
+      imagePullSecrets: 
+      - name: sh-m-04-pull-secret      
       securityContext: {}
         # runAsUser: 1000810000
         # runAsGroup: 1000810000
