@@ -53,7 +53,7 @@ spec:
         terminationMessagePolicy: File
         imagePullPolicy: IfNotPresent
       securityContext:
-        runAsUser: 1000810001
-        runAsGroup: 1000810001
+        runAsUser: 1000810000
+        runAsGroup: 1000810000
   revisionHistoryLimit: 10
   progressDeadlineSeconds: 600
